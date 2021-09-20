@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+    font-size: 16px;
+    background: rgb(27, 28, 73);
+  }
+  
+  body {
+    background: rgb(46, 194, 231);
+    max-width: 960px;
+    color: #1a9ebe;
+    margin: 0 auto;
+  }
+  
+  header {
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: .5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+  }
+  
+  main {
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: honeydew;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+  }
+  
+         
+   
+       
+     
+  
+  header::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  
+  .name {
+    float: right;
+  }
+  
+  .links {
+    float: left;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 1em;
+    
+  }
+  a:hover {
+      background-color: black;
+  }
+  
+  .links a:first-of-type {
+    margin-left: 0;
+
+  }
+  
+  
+  .links a.active {
+    border-bottom: 1px solid #555;
+  }
+  
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+  }
+  
+  footer .media-link {
+    height: 15px;
+  }
+  
+  footer a {
+    margin-right: 32px;
+    text-decoration: none;
+  }
+  
+  footer a:last-child {
+    margin-right: 0;
+  }
+  
+  header, footer {
+    background: #f8f8f8;
+  }
+
+main > h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .project {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    width: calc(100% - 6em);
+    background: #ffebcc;
+    background: #fafafa;
+    color: #222;
+    box-shadow: 0 3px 6px -2px #ccc;
+    margin: 2em auto;
+    padding: 1em;
+  }
+  
+  .project-name {
+    font-weight: 900;
+    font-size: 2em;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .project p {
+    font-size: 1.3em;
+    font-weight: 100;
+    margin: 0 0 1em;
+  }
+  
+  .project p:last-child {
+    margin-bottom: 0;
+  }
+  
+  section:nth-of-type(odd) img {
+    width: 240px;
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+  
+  section:nth-of-type(even) img {
+    width: 240px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+  }
